@@ -1,0 +1,37 @@
+{
+  "name": "web-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaccaria-af/web-crawler.git"
+  },
+  "author": "Zaccaria Al-Fatlawi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zaccaria-af/web-crawler/issues"
+  },
+  "homepage": "https://github.com/zaccaria-af/web-crawler#readme",
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.0.2",
+    "@eslint/js": "^9.0.0",
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "globals": "^15.0.0",
+    "jest": "^29.7.0",
+    "prettier": "3.2.5"
+  },
+  "dependencies": {
+    "install": "^0.13.0",
+    "jsdom": "^24.0.0",
+    "npm": "^10.5.1"
+  }
+}
